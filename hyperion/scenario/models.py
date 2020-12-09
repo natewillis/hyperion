@@ -38,3 +38,4 @@ class Warhead(models.Model):
     impact_location = models.PointField(default=DEFAULT_POINT)
     impact_datetime = models.DateTimeField(default=datetime.datetime.now)
     message_country_code = models.CharField(max_length=10, default=DEFAULT_MESSAGE_COUNTRY_CODE)
+

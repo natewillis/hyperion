@@ -60,6 +60,7 @@ ALLOWED_HOSTS = tuple(env.list('ALLOWED_HOSTS', default=[]))
 INSTALLED_APPS = [
     'world.apps.WorldConfig',
     'scenario.apps.ScenarioConfig',
+    'landing.apps.LandingConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
